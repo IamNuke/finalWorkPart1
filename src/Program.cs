@@ -13,7 +13,7 @@
 
 
 Console.Clear();
-Console.Write("Enter the strings, separated by a space: ");
-String[] strings = {"asdfasdf","12341234","/*-/*--/*-","kl;kl;","ffffffffff", "555555555555"};//Console.ReadLine().Split(" ");
+Console.WriteLine("Enter the strings, separated by a space: ");
+String[] strings = Console.ReadLine().Split(" ");
 
 Console.WriteLine($"Result :[{string.Join("][", ProcessArray(strings))}]");
